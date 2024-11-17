@@ -1,0 +1,13 @@
+  body {
+        margin: auto;
+        width: 40%;
+
+    }
+    form {
+        margin: 20px 0px;
+    }
+
+    input {
+        display: block;
+        margin: 10px 0px;
+    }
