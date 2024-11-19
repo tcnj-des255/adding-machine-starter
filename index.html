@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Machine</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+ <h1>The Adding Machine Website</h1>
+ <button onclick="dontClick()" type="button">Do Not Click this button!</button>
+ <button onclick="darkMode()" id="dark-mode" type="button">Activate Dark Mode</button>
+
+ <br>
+ <form>
+    <label for="number1">Please enter your first number</label>
+    <input id="number1" type="number">
+
+    <br>
+    <label for="number2"> Please enter your second number</label>
+    <input id="number2" type="number">
+
+    <button type="button" onclick="addingMachine()"> Add Number</button>
+    <button type="button" onclick="clearMachine()"> Clear</button>
+ </form>
+
+ <p id="output"></p>
+
+ <img onclick="meow()" src="assets/images/cat.png" id="cat" width="300">
+
+   
+ <script src="assets/js/script.js"></script>   
+</body>
+</html>
